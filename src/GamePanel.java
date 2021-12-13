@@ -33,25 +33,14 @@ public class GamePanel {
         }
 
         // TODO: verify if player exists in savestates,
-        // if not, create and initialize new player
-        // if yes, gamba time.
-        
-        
-        // Player newPlayer = utility.load(playerName);
-
-        // System.out.println(newPlayer.getName());
-        // System.out.println(newPlayer.getBalance());
-        // gamble(newPlayer);
-
-        // utility.save(newPlayer);
     }
 
     public static void gamble(Player player) {
         // TODO: create gamble method 
-        int bet = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter amount to bet"));
+        // int bet = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter amount to bet"));
 
-        player.changeBal(bet);
-        player.changeBal(++bet);
+        // player.changeBal(bet);
+        // player.changeBal(++bet);
 
     }
 
