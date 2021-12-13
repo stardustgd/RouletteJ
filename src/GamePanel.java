@@ -10,10 +10,8 @@ import javax.swing.JOptionPane;
 public class GamePanel {
     private final int INITIAL_BAL = 500;
     private ArrayList<String> playerList = new ArrayList<>();
-    // private Player defaultPlayer; 
 
     public GamePanel() throws ClassNotFoundException, IOException {
-        // defaultPlayer = new Player("John Doe", INITIAL_BAL, -1);
         run();
     }
 
